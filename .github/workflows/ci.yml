@@ -22,7 +22,7 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # ✅ ADD THIS STEP (VERY IMPORTANT 🔐)
+      
       - name: Create DBT profiles.yml
         run: |
           mkdir -p ~/.dbt
@@ -48,6 +48,7 @@ jobs:
 
       - name: Run DBT
         run: |
+          cd my_project
           dbt run
 
       - name: Run Pytest
