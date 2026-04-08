@@ -1,0 +1,508 @@
+[0m17:19:12.027129 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:19:12.120620 | bc98da4d-e66e-4440-abe7-50bd4adc96fd ==============================
+[0m17:19:12.120620 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:19:12.122383 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init my_project', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:19:12.218358 [debug] [MainThread]: Starter project path: C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m17:19:12.322786 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:19:12.324558 [info ] [MainThread]: Setting up your profile.
+[0m17:21:21.394940 [info ] [MainThread]: Profile my_project written to C:\Users\HP\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:21:21.399648 [debug] [MainThread]: Command `dbt init` succeeded at 17:21:21.399648 after 129.66 seconds
+[0m17:21:21.401658 [debug] [MainThread]: Flushing usage events
+[0m17:25:10.007278 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:25:10.109392 | e5f956db-3f84-4843-afb6-a5ed0b0a5254 ==============================
+[0m17:25:10.109392 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:25:10.113429 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:25:10.182460 [info ] [MainThread]: dbt version: 1.11.2
+[0m17:25:10.188554 [info ] [MainThread]: python version: 3.10.0
+[0m17:25:10.190575 [info ] [MainThread]: python path: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:25:10.198910 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m17:25:13.175147 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:25:13.181398 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:25:13.181398 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:25:13.490102 [info ] [MainThread]: Using profiles dir at C:\Users\HP\.dbt
+[0m17:25:13.492142 [info ] [MainThread]: Using profiles.yml file at C:\Users\HP\.dbt\profiles.yml
+[0m17:25:13.495053 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\dbt_project.yml
+[0m17:25:13.499166 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:25:13.506691 [debug] [MainThread]: Command `dbt debug` failed at 17:25:13.505519 after 3.76 seconds
+[0m17:25:13.508818 [debug] [MainThread]: Flushing usage events
+[0m17:26:04.555028 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:26:04.618355 | ea194261-8f55-4c8e-9397-915ba3c478ff ==============================
+[0m17:26:04.618355 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:26:04.618355 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:26:04.667089 [info ] [MainThread]: dbt version: 1.11.2
+[0m17:26:04.667089 [info ] [MainThread]: python version: 3.10.0
+[0m17:26:04.667089 [info ] [MainThread]: python path: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:26:04.667089 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m17:26:04.798570 [info ] [MainThread]: Using profiles dir at C:\Users\HP\.dbt
+[0m17:26:04.798570 [info ] [MainThread]: Using profiles.yml file at C:\Users\HP\.dbt\profiles.yml
+[0m17:26:04.798570 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\dbt_project.yml
+[0m17:26:04.798570 [info ] [MainThread]: adapter type: postgres
+[0m17:26:04.811046 [info ] [MainThread]: adapter version: 1.10.0
+[0m17:26:04.811046 [info ] [MainThread]: Configuration:
+[0m17:26:04.813691 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:26:04.815703 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:26:04.815703 [info ] [MainThread]: Required dependencies:
+[0m17:26:04.815703 [debug] [MainThread]: Executing "git --help"
+[0m17:26:04.915334 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:26:04.915334 [debug] [MainThread]: STDERR: "b''"
+[0m17:26:04.915334 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:26:04.915334 [info ] [MainThread]: Connection:
+[0m17:26:04.915334 [info ] [MainThread]:   host: localhost
+[0m17:26:04.921387 [info ] [MainThread]:   port: 5432
+[0m17:26:04.921387 [info ] [MainThread]:   user: postgres
+[0m17:26:04.921387 [info ] [MainThread]:   database: etl_project
+[0m17:26:04.921387 [info ] [MainThread]:   schema: public
+[0m17:26:04.921387 [info ] [MainThread]:   connect_timeout: 10
+[0m17:26:04.921387 [info ] [MainThread]:   role: None
+[0m17:26:04.921387 [info ] [MainThread]:   search_path: None
+[0m17:26:04.927163 [info ] [MainThread]:   keepalives_idle: 0
+[0m17:26:04.928890 [info ] [MainThread]:   sslmode: None
+[0m17:26:04.928890 [info ] [MainThread]:   sslcert: None
+[0m17:26:04.931033 [info ] [MainThread]:   sslkey: None
+[0m17:26:04.933033 [info ] [MainThread]:   sslrootcert: None
+[0m17:26:04.933033 [info ] [MainThread]:   application_name: dbt
+[0m17:26:04.933033 [info ] [MainThread]:   retries: 1
+[0m17:26:04.937039 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:26:05.853368 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m17:26:06.407004 [debug] [MainThread]: Using postgres connection "debug"
+[0m17:26:06.409019 [debug] [MainThread]: On debug: select 1 as id
+[0m17:26:06.409019 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:26:06.526076 [debug] [MainThread]: SQL status: SELECT 1 in 0.116 seconds
+[0m17:26:06.526076 [debug] [MainThread]: On debug: Close
+[0m17:26:06.526076 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:26:06.531792 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:26:06.533810 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\dbt_project.yml> not found
+
+[0m17:26:06.537954 [debug] [MainThread]: Command `dbt debug` failed at 17:26:06.537954 after 2.17 seconds
+[0m17:26:06.540217 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:26:06.540926 [debug] [MainThread]: Flushing usage events
+[0m17:27:04.195944 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:27:04.326210 | d2e283ae-66d3-48b3-959c-8b1b6947bc1b ==============================
+[0m17:27:04.326210 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:27:04.327783 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:27:04.425475 [info ] [MainThread]: dbt version: 1.11.2
+[0m17:27:04.433869 [info ] [MainThread]: python version: 3.10.0
+[0m17:27:04.450104 [info ] [MainThread]: python path: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:27:04.459490 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m17:27:04.827568 [info ] [MainThread]: Using profiles dir at C:\Users\HP\.dbt
+[0m17:27:04.842808 [info ] [MainThread]: Using profiles.yml file at C:\Users\HP\.dbt\profiles.yml
+[0m17:27:04.854684 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\dbt_project.yml
+[0m17:27:04.877564 [info ] [MainThread]: adapter type: postgres
+[0m17:27:04.900820 [info ] [MainThread]: adapter version: 1.10.0
+[0m17:27:05.509113 [info ] [MainThread]: Configuration:
+[0m17:27:05.517099 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:27:05.521175 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:27:05.527093 [info ] [MainThread]: Required dependencies:
+[0m17:27:05.531364 [debug] [MainThread]: Executing "git --help"
+[0m17:27:05.689751 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:27:05.689751 [debug] [MainThread]: STDERR: "b''"
+[0m17:27:05.689751 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:27:05.689751 [info ] [MainThread]: Connection:
+[0m17:27:05.689751 [info ] [MainThread]:   host: localhost
+[0m17:27:05.697824 [info ] [MainThread]:   port: 5432
+[0m17:27:05.698765 [info ] [MainThread]:   user: postgres
+[0m17:27:05.702348 [info ] [MainThread]:   database: etl_project
+[0m17:27:05.702348 [info ] [MainThread]:   schema: public
+[0m17:27:05.702348 [info ] [MainThread]:   connect_timeout: 10
+[0m17:27:05.702348 [info ] [MainThread]:   role: None
+[0m17:27:05.707803 [info ] [MainThread]:   search_path: None
+[0m17:27:05.710817 [info ] [MainThread]:   keepalives_idle: 0
+[0m17:27:05.712876 [info ] [MainThread]:   sslmode: None
+[0m17:27:05.716446 [info ] [MainThread]:   sslcert: None
+[0m17:27:05.718464 [info ] [MainThread]:   sslkey: None
+[0m17:27:05.720790 [info ] [MainThread]:   sslrootcert: None
+[0m17:27:05.722880 [info ] [MainThread]:   application_name: dbt
+[0m17:27:05.732487 [info ] [MainThread]:   retries: 1
+[0m17:27:05.741132 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:27:06.967526 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m17:27:07.208202 [debug] [MainThread]: Using postgres connection "debug"
+[0m17:27:07.208202 [debug] [MainThread]: On debug: select 1 as id
+[0m17:27:07.210211 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:27:07.298582 [debug] [MainThread]: SQL status: SELECT 1 in 0.088 seconds
+[0m17:27:07.298582 [debug] [MainThread]: On debug: Close
+[0m17:27:07.298582 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:27:07.304251 [info ] [MainThread]: [32mAll checks passed![0m
+[0m17:27:07.306266 [debug] [MainThread]: Command `dbt debug` succeeded at 17:27:07.306266 after 3.47 seconds
+[0m17:27:07.306266 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:27:07.306266 [debug] [MainThread]: Flushing usage events
+[0m17:31:05.526594 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:31:05.687544 | a6ceb21c-c594-486e-8db1-3647f04c4acd ==============================
+[0m17:31:05.687544 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:31:05.696215 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:31:07.368299 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:31:09.150757 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:31:09.159697 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:31:13.003651 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:31:13.161244 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:31:13.174659 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:31:13.233271 [info ] [MainThread]: Found 464 macros
+[0m17:31:13.237302 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:31:13.240595 [debug] [MainThread]: Command end result
+[0m17:31:13.358774 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:31:13.370495 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:31:13.387869 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m17:31:13.387869 [debug] [MainThread]: Command `dbt run` succeeded at 17:31:13.387869 after 8.19 seconds
+[0m17:31:13.394732 [debug] [MainThread]: Flushing usage events
+[0m17:33:25.702923 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:33:25.847985 | 83bd6224-9a8f-49f7-8643-dd7cf213162c ==============================
+[0m17:33:25.847985 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:33:25.852016 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:33:27.237652 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:33:28.285552 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:33:28.554573 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:33:28.554573 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:33:28.556587 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:33:28.556587 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:33:28.749020 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:33:28.762866 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:33:28.862884 [info ] [MainThread]: Found 464 macros
+[0m17:33:28.869236 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:33:28.881726 [debug] [MainThread]: Command end result
+[0m17:33:29.066578 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:33:29.072605 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:33:29.090733 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m17:33:29.100482 [debug] [MainThread]: Command `dbt run` succeeded at 17:33:29.098473 after 3.73 seconds
+[0m17:33:29.100482 [debug] [MainThread]: Flushing usage events
+[0m17:37:35.596719 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:37:35.678530 | 9c1d5a20-d526-445a-95bf-cb309ec3a78c ==============================
+[0m17:37:35.678530 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:37:35.678530 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'invocation_command': 'dbt ls', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:37:36.603365 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:37:37.634222 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:37:38.067686 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:37:38.067686 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:37:38.075921 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:37:38.079946 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:37:38.339399 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:37:38.351449 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:37:38.436777 [info ] [MainThread]: Found 464 macros
+[0m17:37:38.441217 [warn ] [MainThread]: No nodes selected!
+[0m17:37:38.448134 [debug] [MainThread]: Command `dbt ls` succeeded at 17:37:38.448134 after 3.13 seconds
+[0m17:37:38.450146 [debug] [MainThread]: Flushing usage events
+[0m17:42:17.262131 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:42:17.299320 | 49854747-3407-4eff-b2b4-aefa13203d55 ==============================
+[0m17:42:17.299320 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:42:17.299320 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:42:17.902494 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:42:18.594974 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:42:18.755343 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:42:18.755343 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:42:18.759264 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:42:18.759264 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:42:18.864878 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:42:18.876689 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:42:18.918761 [info ] [MainThread]: Found 464 macros
+[0m17:42:18.922776 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:42:18.922776 [debug] [MainThread]: Command end result
+[0m17:42:19.016284 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:42:19.016284 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:42:19.032037 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m17:42:19.032037 [debug] [MainThread]: Command `dbt run` succeeded at 17:42:19.032037 after 1.86 seconds
+[0m17:42:19.032037 [debug] [MainThread]: Flushing usage events
+[0m17:44:34.579235 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:44:34.644474 | bdd36d04-3204-4990-b6d3-5ca77bb4cef4 ==============================
+[0m17:44:34.644474 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:44:34.646486 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:44:35.486166 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:44:36.245436 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:44:36.419852 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:44:36.421858 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:44:36.421858 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:44:36.426520 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:44:36.534076 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:44:36.538740 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:44:36.592236 [info ] [MainThread]: Found 464 macros
+[0m17:44:36.596234 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:44:36.603142 [debug] [MainThread]: Command end result
+[0m17:44:36.784905 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:44:36.792952 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:44:36.802998 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m17:44:36.805007 [debug] [MainThread]: Command `dbt run` succeeded at 17:44:36.805007 after 2.40 seconds
+[0m17:44:36.807018 [debug] [MainThread]: Flushing usage events
+[0m17:45:56.537127 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:45:56.774041 | 0986d45e-4b3f-42e0-8690-140bff0c918b ==============================
+[0m17:45:56.774041 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:45:56.778062 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt ls', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:45:57.721393 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:45:58.616851 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:45:58.835451 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:45:58.835451 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:45:58.835451 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:45:58.835451 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:45:58.951084 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:45:58.953092 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:45:59.004122 [info ] [MainThread]: Found 464 macros
+[0m17:45:59.006197 [warn ] [MainThread]: No nodes selected!
+[0m17:45:59.010249 [debug] [MainThread]: Command `dbt ls` succeeded at 17:45:59.010249 after 2.75 seconds
+[0m17:45:59.010249 [debug] [MainThread]: Flushing usage events
+[0m17:48:53.433900 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:48:53.498291 | e0429b4b-142e-4122-8c24-f7d59554787c ==============================
+[0m17:48:53.498291 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:48:53.500300 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:48:54.565319 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:48:55.813504 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:48:56.129907 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:48:56.129907 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:48:56.129907 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:48:56.129907 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:48:56.306190 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:48:56.311991 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:48:56.370825 [info ] [MainThread]: Found 464 macros
+[0m17:48:56.374843 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:48:56.378868 [debug] [MainThread]: Command end result
+[0m17:48:56.504563 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:48:56.512563 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:48:56.524178 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m17:48:56.530118 [debug] [MainThread]: Command `dbt run` succeeded at 17:48:56.530118 after 3.22 seconds
+[0m17:48:56.531486 [debug] [MainThread]: Flushing usage events
+[0m17:51:43.047372 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:51:43.083201 | a5dedae5-6bcf-4176-9e08-ebaaca71b129 ==============================
+[0m17:51:43.083201 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:51:43.083201 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'invocation_command': 'dbt ls', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:51:43.608514 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:51:44.108741 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:51:44.280123 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:51:44.280123 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:51:44.280123 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:51:44.280123 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:51:44.374187 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:51:44.379180 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:51:44.408980 [info ] [MainThread]: Found 464 macros
+[0m17:51:44.408980 [warn ] [MainThread]: No nodes selected!
+[0m17:51:44.413953 [debug] [MainThread]: Command `dbt ls` succeeded at 17:51:44.413953 after 1.47 seconds
+[0m17:51:44.413953 [debug] [MainThread]: Flushing usage events
+[0m17:58:53.735968 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:58:53.801349 | 54921bf8-fd6d-4d3f-98ea-abb35f13fff0 ==============================
+[0m17:58:53.801349 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:58:53.803360 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m17:58:54.890744 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m17:58:55.819754 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m17:58:56.225450 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:58:56.227458 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:58:56.227458 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:58:56.229466 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m17:58:56.387992 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:58:56.395644 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:58:56.459905 [info ] [MainThread]: Found 464 macros
+[0m17:58:56.464434 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:58:56.471779 [debug] [MainThread]: Command end result
+[0m17:58:56.636875 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m17:58:56.646875 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m17:58:56.660533 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m17:58:56.663550 [debug] [MainThread]: Command `dbt run` succeeded at 17:58:56.663550 after 3.10 seconds
+[0m17:58:56.665556 [debug] [MainThread]: Flushing usage events
+[0m18:19:12.146876 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:19:12.198342 | 50cbe015-b87e-46ba-a180-f770496c483d ==============================
+[0m18:19:12.198342 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:19:12.198342 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:19:12.828243 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m18:19:13.344743 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m18:19:13.425277 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m18:19:14.749405 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project
+[0m18:19:14.853181 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:19:14.867291 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:19:14.930583 [info ] [MainThread]: Found 464 macros
+[0m18:19:14.932590 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:19:14.932590 [debug] [MainThread]: Command end result
+[0m18:19:14.997867 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:19:15.004868 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:19:15.014658 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m18:19:15.017657 [debug] [MainThread]: Command `dbt run` succeeded at 18:19:15.016659 after 3.00 seconds
+[0m18:19:15.017657 [debug] [MainThread]: Flushing usage events
+[0m18:19:58.626110 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:19:58.663903 | 112fbb6a-c79e-4da3-a280-f2c9a46c63d2 ==============================
+[0m18:19:58.663903 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:19:58.663903 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt clean', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:19:59.047900 [debug] [MainThread]: Command `dbt clean` succeeded at 18:19:59.047900 after 0.51 seconds
+[0m18:19:59.048900 [debug] [MainThread]: Flushing usage events
+[0m18:20:06.723012 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:20:06.765396 | 343dbdf4-7c1a-4042-a9f9-9d1b8afc7065 ==============================
+[0m18:20:06.765396 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:20:06.767401 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:20:07.257016 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m18:20:07.674116 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m18:20:07.674116 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:20:08.862504 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project
+[0m18:20:08.955990 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:20:08.962989 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:20:08.998985 [info ] [MainThread]: Found 464 macros
+[0m18:20:09.003513 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:20:09.003513 [debug] [MainThread]: Command end result
+[0m18:20:09.032591 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:20:09.032591 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:20:09.053199 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m18:20:09.055199 [debug] [MainThread]: Command `dbt run` succeeded at 18:20:09.054198 after 2.44 seconds
+[0m18:20:09.055199 [debug] [MainThread]: Flushing usage events
+[0m18:21:30.348943 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:21:30.378870 | 1156616c-be1e-43cf-9a6c-eca7812d07ae ==============================
+[0m18:21:30.378870 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:21:30.378870 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:21:30.897665 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m18:21:31.387290 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m18:21:31.616191 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:21:31.616191 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m18:21:31.616191 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:21:31.618211 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project
+[0m18:21:31.730285 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:21:31.736310 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:21:31.781318 [info ] [MainThread]: Found 464 macros
+[0m18:21:31.785333 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:21:31.789343 [debug] [MainThread]: Command end result
+[0m18:21:31.883183 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:21:31.883183 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:21:31.897696 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m18:21:31.900782 [debug] [MainThread]: Command `dbt run` succeeded at 18:21:31.899784 after 1.65 seconds
+[0m18:21:31.901781 [debug] [MainThread]: Flushing usage events
+[0m18:23:33.931031 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:23:33.974816 | 3d242de0-b603-4600-845b-e4189e7eb56e ==============================
+[0m18:23:33.974816 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:23:33.978040 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt clean', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:23:34.344731 [debug] [MainThread]: Command `dbt clean` succeeded at 18:23:34.343729 after 0.52 seconds
+[0m18:23:34.345727 [debug] [MainThread]: Flushing usage events
+[0m18:23:42.177962 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:23:42.207513 | b87b98b5-4589-4346-bf1b-9f54230562b9 ==============================
+[0m18:23:42.207513 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:23:42.207513 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'invocation_command': 'dbt compile', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:23:42.686090 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m18:23:43.120740 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m18:23:43.124758 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:23:44.973565 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project
+[0m18:23:45.160431 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:23:45.174506 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:23:45.253549 [info ] [MainThread]: Found 464 macros
+[0m18:23:45.259316 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:23:45.262305 [debug] [MainThread]: Command end result
+[0m18:23:45.338255 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:23:45.348040 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:23:45.360084 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m18:23:45.363845 [debug] [MainThread]: Command `dbt compile` succeeded at 18:23:45.363845 after 3.28 seconds
+[0m18:23:45.363845 [debug] [MainThread]: Flushing usage events
+[0m18:25:34.332361 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:25:34.364628 | 66601248-633a-4d8e-8560-c30fcdaeb4f2 ==============================
+[0m18:25:34.364628 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:25:34.364628 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'invocation_command': 'dbt clean', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:25:34.681304 [debug] [MainThread]: Command `dbt clean` succeeded at 18:25:34.681304 after 0.43 seconds
+[0m18:25:34.682384 [debug] [MainThread]: Flushing usage events
+[0m18:25:44.670387 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:25:44.700269 | 1f2a4dbd-fb0d-4361-914d-f847aa25b0a6 ==============================
+[0m18:25:44.700269 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:25:44.700269 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt compile', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\HP\\OneDrive\\Desktop\\Marklogic_etl_pipeline\\logs'}
+[0m18:25:45.208947 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m18:25:45.890697 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m18:25:45.894717 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:25:47.531399 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project
+[0m18:25:47.676500 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:25:47.683573 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:25:47.709574 [info ] [MainThread]: Found 464 macros
+[0m18:25:47.719498 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:25:47.719498 [debug] [MainThread]: Command end result
+[0m18:25:47.768022 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\manifest.json
+[0m18:25:47.774033 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\semantic_manifest.json
+[0m18:25:47.780387 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\target\run_results.json
+[0m18:25:47.784261 [debug] [MainThread]: Command `dbt compile` succeeded at 18:25:47.784261 after 3.20 seconds
+[0m18:25:47.784261 [debug] [MainThread]: Flushing usage events
+[0m13:05:58.885798 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 13:05:59.007018 | cac18d42-daba-4e62-890f-867a5e9505a8 ==============================
+[0m13:05:59.007018 [info ] [MainThread]: Running with dbt=1.11.2
+[0m13:05:59.009033 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:05:59.012011 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:05:59.017548 [debug] [MainThread]: Command `dbt run` failed at 13:05:59.017548 after 0.58 seconds
+[0m13:05:59.020328 [debug] [MainThread]: Flushing usage events
