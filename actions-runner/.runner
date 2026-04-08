@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "LAPTOP-VTQMMUN4",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus2.actions.githubusercontent.com/9cixQNNFMQ3M0yCaKWNWfbEc2fIiR03lOfKtLpfnVak4RTYdZE/",
+  "gitHubUrl": "https://github.com/SanjanaChourey113/etl-pipeline-project",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

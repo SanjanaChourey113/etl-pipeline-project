@@ -1,0 +1,175 @@
+[2026-04-08 10:35:18Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-04-08 10:35:18Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:18Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:18Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known config file 'Runner': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.runner'
+[2026-04-08 10:35:19Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2026-04-08 10:35:19Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26200.
+[2026-04-08 10:35:19Z INFO Listener] Version: 2.333.1
+[2026-04-08 10:35:19Z INFO Listener] Commit: 6792966801e8925346735b68c03bf9f347af4646
+[2026-04-08 10:35:19Z INFO Listener] Culture: en-IN
+[2026-04-08 10:35:19Z INFO Listener] UI Culture: en-US
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO Listener] Validating directory permissions for: 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO CommandLineParser] Parse
+[2026-04-08 10:35:19Z INFO CommandLineParser] Parsing 1 args
+[2026-04-08 10:35:19Z INFO CommandLineParser] parsing argument
+[2026-04-08 10:35:19Z INFO CommandLineParser] HasArgs: False
+[2026-04-08 10:35:19Z INFO CommandLineParser] Adding Command: run
+[2026-04-08 10:35:19Z INFO Listener] Arguments parsed
+[2026-04-08 10:35:19Z INFO Runner] ExecuteCommand
+[2026-04-08 10:35:19Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin\Runner.Listener.dll
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] binPath: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] RootFolder: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known config file 'Runner': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.runner'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] ConfigFilePath: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.runner
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.runner_migrated'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.runner_migrated
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] CredFilePath: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_migrated'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_migrated
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known config file 'Service': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.service'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.service
+[2026-04-08 10:35:19Z INFO CommandSettings] Flag 'help': 'False'
+[2026-04-08 10:35:19Z INFO CommandSettings] Flag 'version': 'False'
+[2026-04-08 10:35:19Z INFO CommandSettings] Flag 'commit': 'False'
+[2026-04-08 10:35:19Z INFO CommandSettings] Flag 'check': 'False'
+[2026-04-08 10:35:19Z INFO CommandSettings] Command 'configure': 'False'
+[2026-04-08 10:35:19Z INFO CommandSettings] Command 'remove': 'False'
+[2026-04-08 10:35:19Z INFO CommandSettings] Command 'warmup': 'False'
+[2026-04-08 10:35:19Z INFO ConfigurationManager] LoadSettings
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsConfigured()
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsConfigured: True
+[2026-04-08 10:35:19Z INFO ConfigurationManager] Is configured: True
+[2026-04-08 10:35:19Z INFO ConfigurationStore] Read setting file: 416 chars
+[2026-04-08 10:35:19Z INFO ConfigurationManager] Settings Loaded
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsServiceConfigured()
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsServiceConfigured: False
+[2026-04-08 10:35:19Z INFO CommandSettings] Command 'run': 'True'
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsConfigured()
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsConfigured: True
+[2026-04-08 10:35:19Z INFO ConfigurationManager] Is configured: True
+[2026-04-08 10:35:19Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2026-04-08 10:35:19Z INFO Runner] Set runner startup type - Manual
+[2026-04-08 10:35:19Z INFO CommandSettings] Flag 'once': 'False'
+[2026-04-08 10:35:19Z INFO CommandSettings] Flag 'once': 'False'
+[2026-04-08 10:35:19Z INFO Runner] RunAsync
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Work': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\_work'
+[2026-04-08 10:35:19Z INFO Runner] Validating directory permissions for: 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\_work'
+[2026-04-08 10:35:19Z INFO ConfigurationManager] LoadMigratedSettings
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsMigratedConfigured()
+[2026-04-08 10:35:19Z INFO ConfigurationStore] IsMigratedConfigured: False
+[2026-04-08 10:35:19Z INFO Runner] Failed to load migrated settings: No migrated configuration found.
+[2026-04-08 10:35:19Z INFO Runner] Falling back to original .runner settings
+[2026-04-08 10:35:19Z INFO Runner] Using BrokerMessageListener
+[2026-04-08 10:35:19Z INFO BrokerMessageListener] Using provided settings
+[2026-04-08 10:35:19Z INFO BrokerMessageListener] {
+  "AgentId": 2,
+  "AgentName": "LAPTOP-VTQMMUN4",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus2.actions.githubusercontent.com/9cixQNNFMQ3M0yCaKWNWfbEc2fIiR03lOfKtLpfnVak4RTYdZE/",
+  "GitHubUrl": "https://github.com/SanjanaChourey113/etl-pipeline-project",
+  "WorkFolder": "_work",
+  "UseV2Flow": true,
+  "ServerUrlV2": "https://broker.actions.githubusercontent.com/"
+}
+[2026-04-08 10:35:19Z INFO BrokerMessageListener] Loading Credentials
+[2026-04-08 10:35:19Z INFO ConfigurationStore] HasCredentials()
+[2026-04-08 10:35:19Z INFO ConfigurationStore] stored True
+[2026-04-08 10:35:19Z INFO CredentialManager] GetCredentialProvider
+[2026-04-08 10:35:19Z INFO CredentialManager] Creating type OAuth
+[2026-04-08 10:35:19Z INFO CredentialManager] Creating credential type: OAuth
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:35:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner'
+[2026-04-08 10:35:19Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams'
+[2026-04-08 10:35:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams
+[2026-04-08 10:35:19Z INFO BrokerMessageListener] Attempt to create session.
+[2026-04-08 10:35:19Z INFO BrokerMessageListener] Connecting to the Broker Server...
+[2026-04-08 10:35:19Z INFO ConfigurationStore] HasCredentials()
+[2026-04-08 10:35:19Z INFO ConfigurationStore] stored True
+[2026-04-08 10:35:19Z INFO CredentialManager] GetCredentialProvider
+[2026-04-08 10:35:19Z INFO CredentialManager] Creating type OAuth
+[2026-04-08 10:35:19Z INFO CredentialManager] Creating credential type: OAuth
+[2026-04-08 10:35:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams
+[2026-04-08 10:35:19Z INFO BrokerMessageListener] VssConnection created
+[2026-04-08 10:35:19Z INFO BrokerMessageListener] Connecting to the Runner server...
+[2026-04-08 10:35:19Z INFO RunnerServer] EstablishVssConnection
+[2026-04-08 10:35:19Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2026-04-08 10:35:19Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-04-08 10:35:19Z INFO RunnerServer] EstablishVssConnection
+[2026-04-08 10:35:19Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-04-08 10:35:19Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-04-08 10:35:19Z INFO RunnerServer] EstablishVssConnection
+[2026-04-08 10:35:19Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-04-08 10:35:19Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-04-08 10:35:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-04-08 10:35:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-04-08 10:35:22Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-04-08 10:35:22Z INFO BrokerMessageListener] VssConnection created
+[2026-04-08 10:35:22Z INFO Terminal] WRITE LINE: 
+[2026-04-08 10:35:22Z INFO Terminal] WRITE LINE: 
+[2026-04-08 10:35:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams
+[2026-04-08 10:35:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams
+[2026-04-08 10:35:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2026-04-08 10:35:24Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (2.4349251 seconds)
+[2026-04-08 10:35:27Z INFO BrokerMessageListener] Session created.
+[2026-04-08 10:35:27Z INFO Terminal] WRITE LINE: Current runner version: '2.333.1'
+[2026-04-08 10:35:27Z INFO Terminal] WRITE LINE: 2026-04-08 10:35:27Z: Listening for Jobs
+[2026-04-08 10:35:27Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2026-04-08 10:36:10Z INFO BrokerMessageListener] Acknowledging runner request '2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf'.
+[2026-04-08 10:36:10Z INFO ConfigurationStore] HasCredentials()
+[2026-04-08 10:36:10Z INFO ConfigurationStore] stored True
+[2026-04-08 10:36:10Z INFO CredentialManager] GetCredentialProvider
+[2026-04-08 10:36:10Z INFO CredentialManager] Creating type OAuth
+[2026-04-08 10:36:10Z INFO CredentialManager] Creating credential type: OAuth
+[2026-04-08 10:36:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams
+[2026-04-08 10:36:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams
+[2026-04-08 10:36:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\.credentials_rsaparams
+[2026-04-08 10:36:12Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2026-04-08 10:36:14Z INFO JobDispatcher] Job request 0 for plan b83576cb-9c94-42f1-98f9-927c4c24f6c0 job 2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf received.
+[2026-04-08 10:36:14Z INFO JobDispatcher] Pull OrchestrationId b83576cb-9c94-42f1-98f9-927c4c24f6c0.build.__default from JWT claims
+[2026-04-08 10:36:14Z INFO BrokerMessageListener] Received job status event. JobState: Busy
+[2026-04-08 10:36:14Z INFO BrokerMessageListener] _getMessagesTokenSource is already disposed.
+[2026-04-08 10:36:14Z INFO Terminal] WRITE LINE: 2026-04-08 10:36:14Z: Running job: build
+[2026-04-08 10:36:14Z INFO JobDispatcher] Start renew job request 0 for job 2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf.
+[2026-04-08 10:36:15Z INFO JobDispatcher] Successfully renew job 2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf, job is valid till 08-04-2026 10:46:16
+[2026-04-08 10:36:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper] Starting process:
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin\Runner.Worker.exe'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2272 2284'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\HP\OneDrive\Desktop\Marklogic_etl_pipeline\actions-runner\bin'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2026-04-08 10:36:15Z INFO ProcessInvokerWrapper] Process started with process id 24624, waiting for process exit.
+[2026-04-08 10:36:15Z INFO JobDispatcher] Send job request message to worker for job 2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf.
+[2026-04-08 10:36:15Z INFO ProcessChannel] Sending message of length 23753, with hash 'c535fdcab7e00f1c68702551da5d60bdc829b1551ef7693a51b3cd159361e3f0'
+[2026-04-08 10:36:15Z INFO JobNotification] Entering JobStarted Notification
+[2026-04-08 10:36:15Z INFO JobNotification] Entering StartMonitor
+[2026-04-08 10:37:15Z INFO JobDispatcher] Successfully renew job 2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf, job is valid till 08-04-2026 10:47:16
+[2026-04-08 10:38:15Z INFO JobDispatcher] Successfully renew job 2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf, job is valid till 08-04-2026 10:48:17
+[2026-04-08 10:39:16Z INFO JobDispatcher] Successfully renew job 2fbda2f5-6d5a-5fa5-b1c5-ee07bd20e9bf, job is valid till 08-04-2026 10:49:17

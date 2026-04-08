@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "SanjanaChourey113/etl-pipeline-project",
+  "pipelineDirectory": "etl-pipeline-project",
+  "workspaceDirectory": "etl-pipeline-project\\etl-pipeline-project",
+  "repositories": {
+    "SanjanaChourey113/etl-pipeline-project": {
+      "repositoryPath": "etl-pipeline-project\\etl-pipeline-project",
+      "lastRunOn": "04/08/2026 16:06:16 +05:30"
+    }
+  },
+  "lastRunOn": "04/08/2026 16:06:16 +05:30"
+}
