@@ -13,28 +13,33 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-  
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      
       - name: Create DBT profiles.yml
+        shell: powershell
         run: |
-          mkdir -p ~/.dbt
-          echo "
+          if (!(Test-Path "$env:USERPROFILE\.dbt")) {
+              New-Item -ItemType Directory -Path "$env:USERPROFILE\.dbt"
+          }
+
+          $profileContent = @"
           my_project:
             target: dev
             outputs:
               dev:
                 type: postgres
-                host: $DB_HOST
-                user: $DB_USER
-                password: $DB_PASSWORD
-                port: $DB_PORT
-                dbname: $DB_NAME
+                host: $env:DB_HOST
+                user: $env:DB_USER
+                password: $env:DB_PASSWORD
+                port: $env:DB_PORT
+                dbname: $env:DB_NAME
                 schema: public
-          " > ~/.dbt/profiles.yml
+          "@
+
+          $profileContent | Out-File "$env:USERPROFILE\.dbt\profiles.yml"
+
         env:
           DB_HOST: ${{ secrets.host }}
           DB_USER: ${{ secrets.user }}
@@ -43,10 +48,12 @@ jobs:
           DB_NAME: ${{ secrets.dbname }}
 
       - name: Run DBT
+        shell: powershell
         run: |
           cd my_project
           dbt run
 
       - name: Run Pytest
+        shell: powershell
         run: |
           pytest
