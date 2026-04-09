@@ -22,23 +22,22 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # ✅ ADD THIS STEP (VERY IMPORTANT 🔐)
       - name: Create DBT profiles.yml
         run: |
           mkdir -p ~/.dbt
-          echo "
-          my_project:
-            target: dev
-            outputs:
-              dev:
-                type: postgres
-                host: $DB_HOST
-                user: $DB_USER
-                password: $DB_PASSWORD
-                port: $DB_PORT
-                dbname: $DB_NAME
-                schema: public
-          " > ~/.dbt/profiles.yml
+          cat > ~/.dbt/profiles.yml << EOF
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: ${DB_HOST}
+      user: ${DB_USER}
+      password: ${DB_PASSWORD}
+      port: ${DB_PORT}
+      dbname: ${DB_NAME}
+      schema: public
+EOF
         env:
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_USER: ${{ secrets.DB_USER }}
