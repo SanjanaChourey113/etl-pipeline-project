@@ -45,7 +45,9 @@ my_project:
       schema: public
 "@
 
-          [System.IO.File]::WriteAllText("$env:USERPROFILE\.dbt\profiles.yml", $profileContent, [System.Text.UTF8Encoding]::new($false))
+          $filePath = "$env:USERPROFILE\.dbt\profiles.yml"
+          $utf8NoBom = New-Object System.Text.UTF8Encoding $false
+          [System.IO.File]::WriteAllText($filePath, $profileContent, $utf8NoBom)
         env:
           DB_HOST: ${{ secrets.host }}
           DB_USER: ${{ secrets.user }}
