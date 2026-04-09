@@ -1,0 +1,11 @@
+order_id,customer_id,order_status,record_status
+1,C001,completed,valid
+2,C002,pending,suspicious
+3,C003,shipped,valid
+4,C004,cancelled,suspicious
+5,C005,completed,valid
+6,C006,processing,valid
+7,C007,shipped,suspicious
+8,C008,completed,valid
+9,C009,pending,valid
+10,C010,completed,suspicious

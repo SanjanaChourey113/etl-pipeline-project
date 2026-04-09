@@ -13,9 +13,9 @@ jobs:
       postgres:
         image: postgres:15
         env:
-          POSTGRES_USER: ${{ secrets.DB_USER }}
-          POSTGRES_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          POSTGRES_DB: ${{ secrets.DB_NAME }}
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: etl_project
         ports:
           - 5432:5432
         options: >-
@@ -36,6 +36,27 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+
+      - name: Create DBT profiles.yml
+        run: |
+          mkdir -p ~/.dbt
+          echo "my_project:" > ~/.dbt/profiles.yml
+          echo "  target: dev" >> ~/.dbt/profiles.yml
+          echo "  outputs:" >> ~/.dbt/profiles.yml
+          echo "    dev:" >> ~/.dbt/profiles.yml
+          echo "      type: postgres" >> ~/.dbt/profiles.yml
+          echo "      host: localhost" >> ~/.dbt/profiles.yml
+          echo "      user: postgres" >> ~/.dbt/profiles.yml
+          echo "      password: postgres" >> ~/.dbt/profiles.yml
+          echo "      port: 5432" >> ~/.dbt/profiles.yml
+          echo "      dbname: etl_project" >> ~/.dbt/profiles.yml
+          echo "      schema: public" >> ~/.dbt/profiles.yml
+
+      - name: Run DBT seed and build
+        run: |
+          cd my_project
+          dbt seed
+          dbt run
 
       - name: Run Pytest
         run: |
