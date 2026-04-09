@@ -47,6 +47,7 @@ EOF
 
       - name: Run DBT
         run: |
+          cd my_project
           dbt run
 
       - name: Run Pytest
