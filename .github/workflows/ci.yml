@@ -28,26 +28,31 @@ jobs:
         shell: powershell
         run: |
           if (!(Test-Path "$env:USERPROFILE\.dbt")) {
-              New-Item -ItemType Directory -Path "$env:USERPROFILE\.dbt"
+              New-Item -ItemType Directory -Path "$env:USERPROFILE\.dbt" -Force
           }
-
-          $profileContent = @"
-my_project:
+          python -c "
+import os
+content = '''my_project:
   target: dev
   outputs:
     dev:
       type: postgres
-      host: $($env:DB_HOST)
-      user: $($env:DB_USER)
-      password: $($env:DB_PASSWORD)
-      port: $($env:DB_PORT)
-      dbname: $($env:DB_NAME)
+      host: {db_host}
+      user: {db_user}
+      password: {db_password}
+      port: {db_port}
+      dbname: {db_name}
       schema: public
-"@
-
-          $filePath = "$env:USERPROFILE\.dbt\profiles.yml"
-          $utf8NoBom = New-Object System.Text.UTF8Encoding $false
-          [System.IO.File]::WriteAllText($filePath, $profileContent, $utf8NoBom)
+'''.format(
+    db_host=os.environ['DB_HOST'],
+    db_user=os.environ['DB_USER'],
+    db_password=os.environ['DB_PASSWORD'],
+    db_port=os.environ['DB_PORT'],
+    db_name=os.environ['DB_NAME']
+)
+with open(os.path.join(os.environ['USERPROFILE'], '.dbt', 'profiles.yml'), 'w', encoding='utf-8') as f:
+    f.write(content)
+"
         env:
           DB_HOST: ${{ secrets.host }}
           DB_USER: ${{ secrets.user }}
