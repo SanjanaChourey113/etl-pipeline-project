@@ -37,33 +37,6 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Create DBT profiles.yml
-        run: |
-          mkdir -p ~/.dbt
-          echo "my_project:" > ~/.dbt/profiles.yml
-          echo "  target: dev" >> ~/.dbt/profiles.yml
-          echo "  outputs:" >> ~/.dbt/profiles.yml
-          echo "    dev:" >> ~/.dbt/profiles.yml
-          echo "      type: postgres" >> ~/.dbt/profiles.yml
-          echo "      host: $DB_HOST" >> ~/.dbt/profiles.yml
-          echo "      user: $DB_USER" >> ~/.dbt/profiles.yml
-          echo "      password: $DB_PASSWORD" >> ~/.dbt/profiles.yml
-          echo "      port: $DB_PORT" >> ~/.dbt/profiles.yml
-          echo "      dbname: $DB_NAME" >> ~/.dbt/profiles.yml
-          echo "      schema: public" >> ~/.dbt/profiles.yml
-          cat ~/.dbt/profiles.yml
-        env:
-          DB_HOST: localhost
-          DB_USER: ${{ secrets.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          DB_PORT: 5432
-          DB_NAME: ${{ secrets.DB_NAME }}
-
-      - name: Run DBT
-        run: |
-          cd my_project
-          dbt run
-
       - name: Run Pytest
         run: |
           pytest
